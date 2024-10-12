@@ -4,9 +4,14 @@ let points = [];
 let image_brain;
 let texture;
 
+function wrapAround(value, range) {
+  return ((value % range) + range) % range;
+}
+
 function randomizeColor(c) {
   console.log(hue(c), saturation(c), brightness(c));
-  let h = round(min(max(hue(c) + random(-10, 10), 0), 360));
+  // let h = round(min(max(hue(c) + random(-10, 10), 0), 360));
+  let h = wrapAround(round(hue(c) - 180), 360);
   let s = saturation(c);
   let b = brightness(c);
   if (b < 30) {

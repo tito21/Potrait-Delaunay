@@ -8,6 +8,7 @@ Italy
 Some things I have tried:
  - Reduce number of points
  - Alter the colors to get different results
+ - Rotate the colors
 
 ![](out/color_retrato4.png)
 ![](out/dull_color_retrato4.png)
@@ -15,3 +16,4 @@ Some things I have tried:
 ![](out/shift_color_retrato4.png)
 ![](out/retrato1.png)
 ![](out/retrato4.png)
+![](out/rotated_color_retrato4.png)
